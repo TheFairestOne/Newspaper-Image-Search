@@ -30,17 +30,6 @@ from pytesseract import image_to_string
 face_cascade = cv.CascadeClassifier('/Users/fair/Documents/Python/Python 3 Programming/Python Project - pillow, tesseract, opencv/Lectures/Class files/haarcascade_frontalface_default.xml')
 #eye_cascade = cv.CascadeClassifier('readonly/haarcascade_eye.xml')
 
-
-# In[2]:
-
-
-#ask for user input/search params
-#query = # some user input
-
-
-# In[17]:
-
-
 import_file = '/Users/fair/Documents/Python/Python 3 Programming/Python Project - pillow, tesseract, opencv/Lectures/Class files/small_img.zip'
 import_file2 = '/Users/fair/Documents/Python/Python 3 Programming/Python Project - pillow, tesseract, opencv/Lectures/Class files/images.zip'
 images = []
